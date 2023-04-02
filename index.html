@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trang Chủ</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #ffffff;
+		}
+		.navbar {
+			background-color: #000;
+			color: #fff;
+		}
+		.nav-link, .navbar-brand {
+			color: #fff !important;
+		}
+		.jumbotron {
+			background-image: url("https://www.w3schools.com/w3images/forestbridge.jpg");
+			background-repeat: no-repeat;
+			background-size: cover;
+			height: 500px;
+			display: flex;
+			align-items: center;
+		}
+		.jumbotron h1 {
+			font-size: 64px;
+			font-weight: bold;
+			color: #fff;
+		}
+		.jumbotron p {
+			font-size: 24px;
+			color: #fff;
+			margin-top: 24px;
+		}
+		.game-card {
+			border: 1px solid #ddd;
+			border-radius: 5px;
+			box-shadow: 0px 0px 5px #ddd;
+			padding: 16px;
+			margin: 16px;
+			background-color: #fff;
+		}
+		.game-card img {
+			border-radius: 5px;
+			height: 200px;
+			width: 100%;
+			object-fit: cover;
+		}
+		.game-card h4 {
+			font-size: 24px;
+			font-weight: bold;
+			margin-top: 16px;
+		}
+		.game-card p {
+			font-size: 18px;
+			margin-top: 8px;
+		}
+	</style>
+</head>
+<body>
+	<nav class="navbar navbar-expand-sm">
+		<a class="navbar-brand" href="#">GameOn</a>
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item">
+				<a class="nav-link" href="#">Trang Chủ</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Thể Loại</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Đăng Nhập</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Đăng Ký</a>
+			</li>
+		</ul>
+	</nav>
+	<div class="jumbotron">
+		<div class="container">
+			<h1>GameOn - Chơi Game Online Miễn Phí</h1>
+			<p>Hàng ngàn trò chơi đang chờ bạn khám phá</p>
+		</div>
+	</div>
+	<div class="container">
+		<h2>Danh Sách Game</h2>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="game-card">
+					<img src="4k-uhd-illustrated-space-triangles-free-photo.jpg">
+					<h4>Game One</h4>
+					<p>Đây là trò chơi rất hay và thú vị. Hãy thử ngay nào!</p>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="game-card">
+					<img src="https://www.w3schools.com/w3images/fjords.jpg">
+					<h4>Game Two</h4>
+					<p>Chạy và đánh như một con bọ. Hãy thử xem bạn có thể đi được bao xa.</p>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="game-card">
+					<img src="https://www.w3schools.com/w3images/mountains.jpg">
+					<h4>Game Three</h4>
+					<p>Đấu với những con quái vật khổng lồ để giành chiến thắng!</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
